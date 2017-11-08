@@ -29,12 +29,9 @@ A port of the jekyll creative theme (port) to jekyll assets (rails-style asset m
 
 ## Installing
 
-```
-git clone
-```
-```
-bundle
-```
+- fork
+- `git clone`
+- `bundle`
 
 ## Getting Started
 
