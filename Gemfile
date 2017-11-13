@@ -1,22 +1,20 @@
 source "https://rubygems.org"
-
+require 'em/pure_ruby'
 
 gem "jekyll", "~> 3.6.2"
-gem "guard-livereload"
-gem "pry"
-
-# This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem "minima", "~> 2.0"
 
 group :jekyll_plugins do
   gem "autoprefixer-rails"
   gem "bootstrap-sass"
   gem "font-awesome-sass"
+  gem "hawkins" # jekyll liveserve
   gem "image_optim"
   gem "jekyll-analytics"
   gem "jekyll-assets"
+  gem "jekyll-cloudinary"
   gem "jekyll-compose"
   gem "jekyll-feed", "~> 0.6"
+  gem "jekyll-livereload"
   gem "jekyll-paginate"
   gem "jekyll-redirect-from"
   gem "jekyll-seo-tag"
