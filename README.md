@@ -12,7 +12,7 @@ A port of the jekyll creative theme (port) to jekyll assets (rails-style asset m
 - Asset caching and cache busting with digests
 - Minification, uglification, and concatenation of js and css
 - JS ES6 syntax support
-- Guard Live-reload
+- Livereload
 - Image Magick and Image Optim
 - Jekyll SEO tags support
 - Jekyll Pagination
@@ -37,11 +37,8 @@ A port of the jekyll creative theme (port) to jekyll assets (rails-style asset m
 
 - edit the `_config.yml` file for site and user specific details (title, email, etc.)
 
-```
-bundle exec jekyll serve
-```
-- Start guard-livereload first in a terminal tab if you want live-reload `guard-livereload`
-- Live reload also needs rack middleware or live reload browser extension, see the wiki quick-start [guide](https://github.com/guard/guard-livereload/wiki/Usage)
+- Development: `bundle exec jekyll serve`
+- Production: `bundle exec jekyll build`
 
 ## Other Notes
 
