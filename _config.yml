@@ -3,13 +3,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: 'Chris Anthony'
-email: CTAnthny@gmail.com
-description: 'Portfolio of work'
+title: 'Site Title'
+email: example@gmail.com
+description: 'Site description'
 baseurl:
-url: 'https://ctanthny.com'
+url: 'https://example.com'
 twitter_username:
-github_username: CTAnthny
+github_username:
 google_analytics:
 disqus:
   shortname:
@@ -41,21 +41,18 @@ assets:
   skip_prefix_with_cdn: false
   prefix: /assets
   assets:
-    - assets/css
+    - assets/stylesheets
     - assets/fonts
     - assets/images
-    - assets/javascript
-    - assets/image
-    - assets/img
-    - assets/js
+    - assets/javascripts
+    - assets/icons
   sources:
     - _assets/css
     - _assets/images
     - _assets/javascripts
     - _assets/stylesheets
     - _assets/fonts
-    - _assets/img
-    - _assets/js
+    - _assets/icons
 
 # Permalink structure and pagination options
 permalink: pretty
@@ -63,9 +60,14 @@ paginate: 10
 paginate_path: 'page:num'
 excerpt_separator:
 
+# Server Config options
+# https://github.com/RobertDeRose/jekyll-livereload
+livereload: true
+
 # Build settings
 markdown: kramdown
-theme: minima
+highlighter: true
+
 plugins:
   - jekyll-analytics
   - jekyll-assets
