@@ -2,12 +2,12 @@ source "https://rubygems.org"
 require 'em/pure_ruby'
 
 gem "jekyll", "~> 3.6.2"
+gem "rack-livereload"
 
 group :jekyll_plugins do
   gem "autoprefixer-rails"
   gem "bootstrap-sass"
   gem "font-awesome-sass"
-  gem "hawkins" # jekyll liveserve
   gem "image_optim"
   gem "jekyll-analytics"
   gem "jekyll-assets"
@@ -27,3 +27,4 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
