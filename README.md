@@ -12,7 +12,7 @@ A port of the jekyll creative theme (port) to jekyll assets (rails-style asset m
 - Asset caching and cache busting with digests
 - Minification, uglification, and concatenation of js and css
 - JS ES6 syntax support
-- Livereload
+- Livereload (Doesn't work with Windows)
 - Image Magick and Image Optim
 - Jekyll SEO tags support
 - Jekyll Pagination
