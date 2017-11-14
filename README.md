@@ -37,7 +37,7 @@ A port of the jekyll creative theme (port) to jekyll assets (rails-style asset m
 
 - edit the `_config.yml` file for site and user specific details (title, email, etc.)
 
-- Development: `bundle exec jekyll serve`
+- Development: `bundle exec jekyll serve -w` (`-w` to watch for local changes)
 - Production: `bundle exec jekyll build`
 
 ## Other Notes
